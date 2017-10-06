@@ -1,3 +1,3 @@
 # java-badge
 
-This is where the work for the Java Badge will be placed.
+This is where my work for the Java Badge will be placed.
