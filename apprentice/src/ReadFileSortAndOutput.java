@@ -2,7 +2,6 @@ import java.nio.charset.Charset;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.net.URL;
 
 public class ReadFileSortAndOutput {
   public static void main(String[] args) {
@@ -11,9 +10,7 @@ public class ReadFileSortAndOutput {
     String sortedFile = "sorted.txt";
     String reversedFile = "reversed.txt";
 
-//    System.out.println("Working Directory = " + System.getProperty("user.dir"));
     System.setProperty("user.dir", System.getProperty("user.dir") + "/apprentice");
-//    System.out.println("Working Directory = " + System.getProperty("user.dir"));
 
     fileContents = ReadFile(inputFile);
 
